@@ -20,7 +20,7 @@ vagrant up
 Links:
 -----
 1. NodeCellar: (http://127.0.0.1:10080) 
-2. Static Nginx: (http://127.0.0.1:10080/static) 
+2. Static Nginx: (http://127.0.0.1:10080/static/) 
 3. MongoDB api: (http://127.0.0.1:17017)
 4. MongoDB web: (http://127.0.0.1:18017)
 
