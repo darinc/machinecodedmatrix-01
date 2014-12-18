@@ -1,0 +1,6 @@
+---
+src_root: /data/web
+nginx_hostname: hostname
+node_port: 3000
+web_project_name: static
+node_project_name: wine

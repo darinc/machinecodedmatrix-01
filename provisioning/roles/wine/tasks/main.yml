@@ -1,0 +1,13 @@
+---
+- name: "Wine | Install NPM dependancies for project"
+  npm: path={{src_root}}/{{node_project_name}}
+
+- name: "Wine | list what is running."
+  command: forever list
+  register: forever_list
+  changed_when: false
+
+- name: "Wine | start wine server.js"
+  command: forever start {{src_root}}/{{node_project_name}}/server.js
+  when: "forever_list.stdout.find('{{src_root}}/{{node_project_name}}/server.js') == -1"
+

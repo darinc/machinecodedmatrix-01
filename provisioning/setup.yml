@@ -1,0 +1,10 @@
+---
+- hosts: all
+  user: vagrant
+
+  roles:
+    - common
+    - nodejs
+    - mongodb
+    - nginx
+    - wine
