@@ -1,5 +1,7 @@
-The Machine Coded Matrix 
+Archived - The Machine Coded Matrix 
 ========================
+
+This repository was a take home test for a job application.  For reference only.
 
 Vagrant file to install MongoDB, Nginx, Node.js, Node Cellar, and some cool parallax demo
 Running on Ubuntu 12.04
